@@ -63,7 +63,7 @@ jobs:
       run: sudo make build install
 
     - name: Install bats
-      uses: bats-core/bats-action@4.0.0
+      uses: bats-core/bats-action@4.1.0
       with:
         bats-version: 1.10.0
         support-install: false
